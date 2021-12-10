@@ -34,7 +34,7 @@ public class Main {
         //lesson 4//
         Scanner scanner = new Scanner(System.in);
         System.out.println("first number");
-        byte first = scanner.nextInt();
+        int first = scanner.nextInt();
         System.out.println("second number");
         short second = scanner.nextInt();
         System.out.println("theard number");
