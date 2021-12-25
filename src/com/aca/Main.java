@@ -1,10 +1,5 @@
 package com.aca;
 
-import java.awt.*;
-import java.sql.SQLOutput;
-import java.util.Random;
-import java.util.Scanner;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -280,7 +275,19 @@ public class Main {
             System.out.println("a is legal b is illegal.");
         }else System.out.println("Both a and b illegal.");*/
 
+        /*int a =3, b=4;
+        a=a+b;
+        b=a-b;
+        a=a-b;
+        System.out.println(a);
+        System.out.println(b);*/
+
+
+
+
 
 
     }
+
+
 }
