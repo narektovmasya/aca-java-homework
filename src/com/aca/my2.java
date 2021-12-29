@@ -56,17 +56,65 @@ public class my2 {
 
         /*int i = 1, j=1;
         while ( i<=3){
-            System.out.println("i  "+i);
+            System.out.println("O "+i);
             while (j <=3){
                 if (j ==2){
                     j++;
                     continue;
                 }
-                System.out.println("j  "+j);
+                System.out.println("I "+j);
                 j++;
             }
             i++;
         }*/
+
+        /*int a []= new int[5];
+        a [0]=1;
+        a [1]=-25;
+        a [2]=0;
+        a [3]=14;
+        a [4]=-1;
+        int min = a[0];
+        for (int j = 0; j < 5; j++) {
+            if ((a[j] < min)&(a[j]>0)) {
+                min = a[j];
+                System.out.println(min);
+            }
+        }*/
+
+       /* Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int ar[] = new int[a];
+        Random rand = new Random();
+        int min = ar[0];
+        int sum = 0;
+        for (int i = 0; i < a; i++) {
+            ar[i] = -50 + rand.nextInt(100);
+            System.out.print(ar[i] + " ");
+        }
+        System.out.println();
+        for (int i = 0; i < a; i++) {
+            sum = sum + ar[i];
+        }
+        if (sum < 1000) {
+            for (int j = 1; j < a; j++) {
+                if ((ar[j] < min)&&(ar[j]>0)) {
+                    min = ar[j];
+                    System.out.println(min);
+                }
+            }
+        }*/
+
+        Scanner sc = new Scanner (System.in);
+        System.out.println("enter number");
+        int a = sc.nextInt();
+        switch (a%2){
+            case 1:
+                System.out.println("odd");
+            default:
+            case 0:
+                System.out.println("even");
+        }
 
 
     }

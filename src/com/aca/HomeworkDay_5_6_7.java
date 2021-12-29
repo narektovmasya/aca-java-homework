@@ -1,4 +1,5 @@
 package com.aca;
+
 import java.awt.*;
 import java.sql.SQLOutput;
 import java.util.Random;
@@ -122,6 +123,45 @@ public class HomeworkDay_5_6_7 {
                 break;
         }*/
 
+        // 11
+        /*Scanner sc = new Scanner(System.in);
+        System.out.println("enter number");
+        int a = sc.nextInt();
+        switch (a % 2) {
+            case 1:
+                System.out.println("odd");
+                break;
+            case 0:
+                System.out.println("even");
+                break;
+        }*/
+
+        // 12
+        /*Scanner sc = new Scanner(System.in);
+        System.out.println("enter first number ");
+        int a = sc.nextInt();
+        System.out.println("choose a operation +, -, *, /");
+        char op = sc.next().charAt(0);
+        System.out.println("enter second number ");
+        int b = sc.nextInt();
+        switch (op) {
+            case '+':
+                int c = a + b;
+                System.out.println(a + "+" + b + "=" + c);
+                break;
+            case '-':
+                c = a - b;
+                System.out.println(a + "-" + b + "=" + c);
+                break;
+            case '/':
+                c = a / b;
+                System.out.println(a + "/" + b + "=" + c);
+                break;
+            case '*':
+                c = a * b;
+                System.out.println(a + "*" + b + "=" + c);
+                break;
+        }*/
 
         // Day 6
 
@@ -135,6 +175,18 @@ public class HomeworkDay_5_6_7 {
         while (i <= 20) {
             System.out.println(i);
             i = i + 2;
+        }*/
+
+        // 3
+        /*Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if (a < 0) {
+            a = a * (-1);
+        }
+        for (int i = 1; i < a; i++) {
+            if (i * i < a) {
+                System.out.println(i * i);
+            }
         }*/
 
         // 4
@@ -184,21 +236,10 @@ public class HomeworkDay_5_6_7 {
         }*/
 
         // 16
-        /*Scanner sc =new Scanner(System.in);          // WRONG
-        Random rand =new Random();
-        int i= rand.nextInt(2);
-        for (int a= sc.nextInt();a==a;){
-            for(int i = sc.nextInt();)
-            if(a>i){
-                System.out.println("Too high, try again.");
-                continue;
-            }
-            if (a<i){
-                System.out.println("Too low, try again.");
-            continue;}
-            break;
-        }
-        System.out.println("Yes, you guessed the number.");*/
+        /*Scanner sc = new Scanner(System.in);          // WRONG
+        Random rand = new Random();
+        int i = rand.nextInt(10);
+        while ()*/
 
         // Day 7
 
@@ -247,7 +288,7 @@ public class HomeworkDay_5_6_7 {
         }*/
 
         // 3
-        /*Scanner sc = new Scanner(System.in);
+        /*/Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
         if (a <= b) {
@@ -300,5 +341,7 @@ public class HomeworkDay_5_6_7 {
             }
             System.out.println();
         }*/
+
+
     }
 }
